@@ -188,6 +188,7 @@ if (shExpMatch(url, "https://*.nju.edu.cn*")) { return proxy_yes; }
 if (shExpMatch(url, "https://*.hbdlib.cn*")) { return proxy_yes; }
 if (shExpMatch(url, "https://*.lawyee.net*")) { return proxy_yes; }
 if (shExpMatch(url, "https://*.wenku.baidu.com*")) { return proxy_yes; }
+if (shExpMatch(url, "https://wenku.baidu.com*")) { return proxy_yes; }
 if (shExpMatch(url, "https://*.nic.edu.cn*")) { return proxy_yes; }
 
 return proxy_no;
