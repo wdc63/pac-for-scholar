@@ -94,6 +94,7 @@ if (shExpMatch(url, "http://*.nju.edu.cn*")) { return proxy_yes; }
 if (shExpMatch(url, "http://*.hbdlib.cn*")) { return proxy_yes; }
 if (shExpMatch(url, "http://*.lawyee.net*")) { return proxy_yes; }
 if (shExpMatch(url, "http://*.wenku.baidu.com*")) { return proxy_yes; }
+if (shExpMatch(url, "http://wenku.baidu.com*")) { return proxy_yes; }
 if (shExpMatch(url, "http://*.nic.edu.cn*")) { return proxy_yes; }
 
 // Https
