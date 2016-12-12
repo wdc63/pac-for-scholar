@@ -8,7 +8,7 @@ var proxy_no = "DIRECT";
 if (shExpMatch(url, "http://ieeexplore.ieee.org*")) { return proxy_yes; }
 if (shExpMatch(url, "http://*.ieeexplore.ieee.org*")) { return proxy_yes; }  
 if (shExpMatch(url, "http://dl.acm.org*")) { return proxy_yes; }
-  if (shExpMatch(url, "http://*.dl.acm.org*")) { return proxy_yes; }
+if (shExpMatch(url, "http://*.dl.acm.org*")) { return proxy_yes; }
 if (shExpMatch(url, "http://*.springer.com*")) { return proxy_yes; }
 if (shExpMatch(url, "http://*.computersinbiologyandmedicine.com*")) { return proxy_yes; }
 if (shExpMatch(url, "http://*.sciencedirect.com*")) { return proxy_yes; }
