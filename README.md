@@ -1,4 +1,4 @@
-Original from yishanhe/scholar-pac, prepare to add more list for universities in china.
+Original from yishanhe/scholar-pac, prepare to add more lists for universities in china.
 
 2016-12-12 Add HTTPS site.
 
